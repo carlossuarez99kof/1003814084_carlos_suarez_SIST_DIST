@@ -4,13 +4,13 @@ public class Aplicacion {
 
     private ConexionBaseDatos conexion;
 
+
     public Aplicacion(ConexionBaseDatos conexion) {
         this.conexion = conexion;
     }
 
     public void ejecutar() {
         conexion.conectar();
-        // ...
         conexion.desconectar();
     }
 

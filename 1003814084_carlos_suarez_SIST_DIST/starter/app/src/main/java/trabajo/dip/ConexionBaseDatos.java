@@ -5,4 +5,5 @@ public interface ConexionBaseDatos {
     void conectar();
 
     void desconectar();
+
 }
