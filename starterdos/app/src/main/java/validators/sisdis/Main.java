@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         IValidarDatos validarDatos = new ValidarDatos();
-
-        System.out.println("Ingrese una cadena de solo texto:");
+    ///cambos
+        System.out.println("Ingrese una cadena de solo texto  :");
         String texto = validarDatos.validarSoloTexto();
         System.out.println("El texto ingresado es: " + texto);
 
