@@ -6,7 +6,7 @@ public class Main {
 
         IValidarDatos validarDatos = new ValidarDatos();
     ///cambos
-        System.out.println("Ingrese una cadena de solo texto  :");
+        System.out.println("Ingrese una cadena de solo texto    :");
         String texto = validarDatos.validarSoloTexto();
         System.out.println("El texto ingresado es: " + texto);
 
