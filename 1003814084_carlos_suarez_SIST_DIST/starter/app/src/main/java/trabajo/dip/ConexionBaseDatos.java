@@ -6,4 +6,5 @@ public interface ConexionBaseDatos {
 
     void desconectar();
 
+
 }
