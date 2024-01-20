@@ -1,7 +1,0 @@
-La arquitectura hexagonal, también conocida como "Puertos y Adaptadores" o "Clean Architecture", es un enfoque de diseño de software que busca separar las preocupaciones y facilitar el mantenimiento y la evolución del sistema. En lugar de organizar el código en capas tradicionales como presentación, lógica de negocio y acceso a datos, la arquitectura hexagonal propone una estructura más centrada en el dominio de la aplicación.
-
-En esta arquitectura, el núcleo de la aplicación (lógica de negocio) se encuentra en el centro, rodeado por adaptadores que se encargan de interactuar con el mundo exterior. Estos adaptadores se dividen en dos tipos principales: puertos y adaptadores.
-
-Puertos (Ports): Definen las interfaces que el núcleo utiliza para interactuar con el mundo exterior. Estos puertos son abstractos y proporcionan una forma de conectar el núcleo con el exterior sin conocer los detalles de implementación.
-
-Adaptadores (Adapters): Implementan las interfaces definidas por los puertos y conectan el núcleo con los elementos externos, como la interfaz de usuario, bases de datos, servicios externos, etc. Los adaptadores son específicos de la tecnología utilizada y traducen las llamadas del núcleo a algo que el mundo exterior pueda entender.
