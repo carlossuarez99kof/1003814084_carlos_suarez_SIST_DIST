@@ -1,0 +1,341 @@
+{
+	"info": {
+		"_postman_id": "f5ec4143-f86f-4f4a-8b9c-9878af810c0d",
+		"name": "taller final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30693751"
+	},
+	"item": [
+		{
+			"name": "vistaRequest",
+			"item": [
+				{
+					"name": "save",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": \"1\",\r\n    \"nombre\": \"modificar\",\r\n    \"descripcion\": \"vista usuario\",\r\n    \"ruta\": \"localhost:8080/user/crear\",\r\n    \"estado\": true,\r\n    \"fechaCreacion\": null, \r\n    \"fechaModificacion\": null, \r\n    \"fechaEliminacion\": null, // Si no hay fecha de eliminación, puedes dejarla como null\r\n    \"usuarioCreacion\": 1, // Reemplaza con el valor adecuado\r\n    \"usuarioModificacion\": 2, // Reemplaza con el valor adecuado\r\n    \"usuarioEliminacion\": null // Si no hay usuario de eliminación, puedes dejarlo como null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": \"1\",\r\n    \"nombre\": \"modificar\",\r\n    \"descripcion\": \"vista dos\",\r\n    \"ruta\": \"localhost:8080/user/crear\",\r\n    \"estado\": true,\r\n    \"fechaCreacion\": null, \r\n    \"fechaModificacion\": null, \r\n    \"fechaEliminacion\": null, // Si no hay fecha de eliminación, puedes dejarla como null\r\n    \"usuarioCreacion\": 1, // Reemplaza con el valor adecuado\r\n    \"usuarioModificacion\": 2, // Reemplaza con el valor adecuado\r\n    \"usuarioEliminacion\": null // Si no hay usuario de eliminación, puedes dejarlo como null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteLogico",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "modeloRequest",
+			"item": [
+				{
+					"name": "save",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": \"1\",\r\n    \"nombre\": \"modificar\",\r\n    \"descripcion\": \"vista usuario\",\r\n    \"ruta\": \"localhost:8080/user/crear\",\r\n    \"estado\": true,\r\n    \"fechaCreacion\": null, \r\n    \"fechaModificacion\": null, \r\n    \"fechaEliminacion\": null, // Si no hay fecha de eliminación, puedes dejarla como null\r\n    \"usuarioCreacion\": 1, // Reemplaza con el valor adecuado\r\n    \"usuarioModificacion\": 2, // Reemplaza con el valor adecuado\r\n    \"usuarioEliminacion\": null // Si no hay usuario de eliminación, puedes dejarlo como null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": \"1\",\r\n    \"nombre\": \"modificar\",\r\n    \"descripcion\": \"vista dos\",\r\n    \"ruta\": \"localhost:8080/user/crear\",\r\n    \"estado\": true,\r\n    \"fechaCreacion\": null, \r\n    \"fechaModificacion\": null, \r\n    \"fechaEliminacion\": null, // Si no hay fecha de eliminación, puedes dejarla como null\r\n    \"usuarioCreacion\": 1, // Reemplaza con el valor adecuado\r\n    \"usuarioModificacion\": 2, // Reemplaza con el valor adecuado\r\n    \"usuarioEliminacion\": null // Si no hay usuario de eliminación, puedes dejarlo como null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteLogico",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "modeloVistaRequest",
+			"item": [
+				{
+					"name": "save",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": \"1\",\r\n    \"nombre\": \"modificar\",\r\n    \"descripcion\": \"vista usuario\",\r\n    \"ruta\": \"localhost:8080/user/crear\",\r\n    \"estado\": true,\r\n    \"fechaCreacion\": null, \r\n    \"fechaModificacion\": null, \r\n    \"fechaEliminacion\": null, // Si no hay fecha de eliminación, puedes dejarla como null\r\n    \"usuarioCreacion\": 1, // Reemplaza con el valor adecuado\r\n    \"usuarioModificacion\": 2, // Reemplaza con el valor adecuado\r\n    \"usuarioEliminacion\": null // Si no hay usuario de eliminación, puedes dejarlo como null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": \"1\",\r\n    \"nombre\": \"modificar\",\r\n    \"descripcion\": \"vista dos\",\r\n    \"ruta\": \"localhost:8080/user/crear\",\r\n    \"estado\": true,\r\n    \"fechaCreacion\": null, \r\n    \"fechaModificacion\": null, \r\n    \"fechaEliminacion\": null, // Si no hay fecha de eliminación, puedes dejarla como null\r\n    \"usuarioCreacion\": 1, // Reemplaza con el valor adecuado\r\n    \"usuarioModificacion\": 2, // Reemplaza con el valor adecuado\r\n    \"usuarioEliminacion\": null // Si no hay usuario de eliminación, puedes dejarlo como null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteLogico",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/v1/seguridad/Vista/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"v1",
+								"seguridad",
+								"Vista",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "New Folder",
+			"item": []
+		}
+	]
+}
